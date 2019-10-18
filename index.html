@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.2/rangeslider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.2/rangeslider.min.css.map">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- landing section -->
+    <section class="top-section">
+        <div class="navbar">
+            <ul class="nav-ul">
+                <li class="nav-li l-1 ">
+                    <a href="" class="nav-link">
+                        <img src="images/netflix_logo.png" alt="" class="logo">
+                    </a>
+                </li>
+                <li class="nav-li l-2 li-text">
+                    <a href="javascript:void(0)" class="nav-link link-text active">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-li li-text">
+                    <a href="javascript:void(0)" class="nav-link link-text">
+                        Movies
+                    </a>
+                </li>
+                <li class="nav-li li-text">
+                    <a href="javascript:void(0)" class="nav-link link-text">
+                        Series
+                    </a>
+                </li>
+                <li class="nav-li li-text dropdown">
+                    <a href="javascript:void(0)" class="nav-link link-text dropdown-toggle" data-toggle="dropdown"">
+                        My List
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="nav-li i-1">
+                    <a href="javascript:void(0)" class="nav-link">
+                        <img src="images/search_icon.png" alt="" class="nav-icons">
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript:void(0)" class="nav-link">
+                        <img src="images/notification_icon.png" alt="" class="nav-icons">
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript:void(0)" class="nav-link">
+                        <img src="images/circle_logo.png" alt="" class="nav-icons" style="width:25px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-bar px-3">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <a href="javascript:void(0)" class="bottom-link active">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="javascript:void(0)" class="bottom-link">
+                          <i class="fas fa-video"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="javascript:void(0)" class="bottom-link">
+                          <i class="fas fa-film"></i>
+                    </a>
+                </div>
+                <div class="col-3 text-center">
+                    <a href="javascript:void(0)" class="bottom-link">
+                        <i class="fas fa-list"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="carousel-wrapper">
+            <div class="slick-car">
+                <div class="slick-items">
+                    <img src="images/the_walking_dead.png" alt="" class="carousel-img">
+                    <div class="carousel-overlay">
+                        <div class="wrapper-overlay">
+                            <div class="overlay-item">
+                                <span class="f-13">Duration: 51m</span>
+                            </div>
+                            <div class="overlay-item">
+                                <img src="images/star.png" alt="" class="icon-14" style="margin-bottom: 3px;">
+                                <span class="rating">7.5</span>
+                                <div style="display:inline;" class="f-13">
+                                    Season
+                                    <span class="text-danger">
+                                        <strong> 8</strong>
+                                    </span> - Episode
+                                    <span class="text-danger">
+                                        <strong>9</strong>
+                                    </span> - Still gotta mean something
+                                </div>
+
+                            </div>
+                            <div class="overlay-item mb-5">
+                                <h1>The Walking Dead</h1>
+                            </div>
+                            <div class="overlay-item f-13 mb-5">
+                                <p>
+                                    A Heaps prisoner makes a discovery; Carol searches for someone in the nearby forest;
+                                </p>
+                                <p>Rick and Morgan find themselves in the company of starngers.</p>
+                            </div>
+                            <div class="overlay-item">
+                                <button class="btn-red btn-round btn-shadow mr-4">
+                                    <img src="images/play_icon_4.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                    <span>WATCH</span>
+                                </button>
+                                <button class="btn-black btn-round btn-shadow">
+                                    <img src="images/add_icon.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                    <span>ADD LIST</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-items">
+                    <img src="images/movie_background.png" alt="" class="carousel-img">
+                    <div class="carousel-overlay">
+                        <div class="wrapper-overlay">
+                            <div class="overlay-item">
+                                <span class="f-13">Duration: 120m</span>
+                            </div>
+                            <div class="overlay-item">
+                                <img src="images/star.png" alt="" class="icon-14" style="margin-bottom: 3px;">
+                                <span class="rating">6.5</span>
+                                <div style="display:inline;" class="f-13">
+                                    Action
+                                </div>
+
+                            </div>
+                            <div class="overlay-item mb-5">
+                                <h1>Rampage</h1>
+                            </div>
+                            <div class="overlay-item f-13 mb-5">
+                                <p>
+                                    A Heaps prisoner makes a discovery; Carol searches for someone in the nearby forest;
+                                </p>
+                                <p>Rick and Morgan find themselves in the company of starngers.</p>
+                            </div>
+                            <div class="overlay-item">
+                                <button class="btn-red btn-round btn-shadow mr-4">
+                                    <img src="images/play_icon_4.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                    <span>WATCH</span>
+                                </button>
+                                <button class="btn-black btn-round btn-shadow">
+                                    <img src="images/add_icon.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                    <span>ADD LIST</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-items">
+                    <img src="images/jurassic_world_fallen_back.jpg" alt="" class="carousel-img">
+                    <div class="carousel-overlay">
+                        <div class="wrapper-overlay">
+                            <div class="overlay-item">
+                                <span class="f-13">Duration: 51m</span>
+                            </div>
+                            <div class="overlay-item">
+                                <img src="images/star.png" alt="" class="icon-14" style="margin-bottom: 3px;">
+                                <span class="rating">8.3</span>
+                                <div style="display:inline;" class="f-13">
+                                    Action
+                                </div>
+
+                            </div>
+                            <div class="overlay-item mb-5">
+                                <h1>Jurassic World: Fallen Kingdom</h1>
+                            </div>
+                            <div class="overlay-item f-13 mb-5">
+                                <p>
+                                    A Heaps prisoner makes a discovery; Carol searches for someone in the nearby forest;
+                                </p>
+                                <p>Rick and Morgan find themselves in the company of starngers.</p>
+                            </div>
+                            <div class="overlay-item">
+                                <button class="btn-red btn-round btn-shadow mr-4">
+                                    <img src="images/play_icon_4.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                    <span>WATCH</span>
+                                </button>
+                                <button class="btn-black btn-round btn-shadow">
+                                    <img src="images/add_icon.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                    <span>ADD LIST</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- landing section ends -->
+
+    <!-- trending section -->
+    <section class="trending">
+        <div class="trends-topbar mn-5">
+            <div class="row">
+                <div class="col-md-3 sec-title-div">
+                    <img src="images/trends_now_icon.png" alt="" style="width: 25px!important;margin-bottom: 10px;margin-right: 10px;">
+                    <h4 class="sec-title">Trends Now</h4>
+                </div>
+                <div class="col-md-3 text-center col-3">
+                    <img src="images/popular_icon.png" alt="" class="icon-10 mr-2">
+                    <span>
+                        <strong class="f-14" style="color: #777;">Popular</strong>
+                    </span>
+                </div>
+                <div class="col-md-3 text-center col-4">
+                    <img src="images/premieres_icon.png" alt="" class="mr-2 icon-14 mb-1">
+                    <span>
+                        <strong class="f-14" style="color: #777;">Premiers</strong>
+                    </span>
+                </div>
+                <div class="col-md-3 text-center col-5">
+                    <img src="images/recebntly_added_icon.png" alt="" class="mr-2 icon-14 mb-1">
+                    <span>
+                        <strong class="f-14" style="color: #777;">Recently Added</strong>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="trending-content py-4">
+            <div class="mn-5">
+                <div class="category-carousel py-4">
+                    <div class="cat-item">
+                        <button class="btn-round btn-category active mr-4">Action</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Adventure</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Animation</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4 active">Biography</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Crime</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Comedy</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Documentry</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4 active">Drama</button>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-carousel">
+                <div class="trending-items">
+                    <img src="images/rectangle_6.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Pacific Rim 2: Uprising</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">5.8</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_7.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Star Wars: Solo</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">7.2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_8.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Red Sparrow</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_9.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Tomb Raider</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_10.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Bad Samaritan</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_11.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white" style="width: 160px;text-overflow: ellipsis;">Jurassic World: Fallen..</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">8.3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_33.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Deadpool 2</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">8.1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_34.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Pacific Rim 2: Uprising</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">5.8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- movies scetion -->
+    <section class="movies-sec pb-5">
+        <div class="trends-topbar mn-5">
+            <div class="row">
+                <div class="col-md-3 sec-title-div">
+                    <img src="images/films_icon.png" alt="" style="width: 25px!important;margin-bottom: 10px;margin-right: 10px;">
+                    <h4 class="sec-title">Movies</h4>
+                </div>
+                <div class="col-md-3 text-center col-3">
+                    <img src="images/series_icon.png" alt="" class="icon-14 mr-2">
+                    <span>
+                        <strong class="f-14" style="color: #777;">Series</strong>
+                    </span>
+                </div>
+                <div class="col-md-3 text-center col-5">
+                    <img src="images/original_series_icon.png" alt="" class="mr-2 icon-14 mb-1">
+                    <span>
+                        <strong class="f-14" style="color: #777;">Original Series</strong>
+                    </span>
+                </div>
+                <div class="col-md-3 text-center col-4">
+                    <div class="row">
+                        <div class="col-3 pr-0">
+                            <img src="images/search_icon_2.png" alt="" class="mr-2 icon-14 mb-1">
+        
+                            </div>
+                            <div class="col-9 pl-0">
+                                <span>
+                                    <!-- <strong class="f-14" style="color: #777;">Search</strong> -->
+                                    <input type="text" placeholder="Search" class="input-search">
+                                </span>
+                            </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="movies-content pt-4">
+            <div class="mn-5">
+                <div class="movie-category-carousel py-4">
+                    <div class="cat-item">
+                        <button class="btn-round btn-category active mr-4">Action</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Adventure</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Animation</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4 active">Biography</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Crime</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Comedy</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4">Documentry</button>
+                    </div>
+                    <div class="cat-item">
+                        <button class="btn-round btn-category mr-4 active">Drama</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mn-5 mb-4 mt-3">
+                <div class="filer-wrapper">
+                    <label class="sort-label"> Sort by:</label>
+                    <button class="btn-round btn-category btn-filter active mr-4">Latest</button>
+                    <div class="dropdown mr-4 filter-1" style="display: inline-block;">
+                        <button type="button" class="btn-round btn-category btn-filter dropdown-toggle" data-toggle="dropdown">
+                            Order By
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="javascript:void(0)">Year</a>
+                            <a class="dropdown-item" href="javascript:void(0)">Rating</a>
+                            <a class="dropdown-item" href="javascript:void(0)">Latest</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown filter-2" style="display: inline-block;">
+                        <button type="button" class="btn-round btn-category btn-filter dropdown-toggle" data-toggle="dropdown">
+                            A-Z
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="javascript:void(0)">A-Z</a>
+                            <a class="dropdown-item" href="javascript:void(0)">Date</a>
+                        </div>
+                    </div>
+                    <div class="range-slider float-right mt-1">
+                        <span>
+                            <img src="images/star.png" alt="" class="icon-14 mr-1">
+                        </span>
+                        <input type="range" min="1" max="10" step="1" value="5">
+                        <div class="text-white" style="display:inline-block;font-size:13px;font-weight:600">
+                            <span id="ratingValue" class="text-white">5</span>.0
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="movies-body mn-5">
+                <div class="trending-items">
+                    <img src="images/rectangle_35.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">October</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">8.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_36.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Incredibles 2</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">7.7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_37.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">The 15:17 to Paris</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">5.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_38.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Rampage</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_39.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">The Maze Runner</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_40.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">The First Purge</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_41.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Christopher Robin</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">7.3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_42.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Venom</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">7.2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_49.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Ant-Man and The Wasp</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.9</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_50.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Sicario</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">7.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_51.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">The Commuter</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <div class="movie-wrap">
+                        <img src="images/rectangle_46.jpg" alt="" class="movie-img">
+                        <div class="card-label">
+                            <h6 class="text-white">Jurassic World: Fallen..</h6>
+                            <div class="card-inner-label">
+                                <span style="margin-right:40px;color: #444;">2018</span>
+                                <span>
+                                    <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                                </span>
+                                <span>
+                                    <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                                </span>
+                                <span class="text-warning last-span">
+                                    <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">5.8</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-des">
+                        <div class="des-wrapper">
+                            <img src="images/rectangle_53.png" alt="" class="des-background">
+                            <div class="carousel-overlay">
+                                <div class="wrapper-overlay">
+                                    <a href="javascript:void(0)" id="close">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                    <div class="age-limit text-white">
+                                        13+
+                                    </div>
+                                    <div class="overlay-item">
+                                        <span class="f-13">Duration: 51m</span>
+                                    </div>
+                                    <div class="overlay-item">
+                                        <img src="images/star.png" alt="" class="icon-14" style="margin-bottom: 3px;">
+                                        <span class="rating">8.3</span>
+                                        <div style="display:inline;" class="f-13">
+                                            Season
+                                            <span class="text-danger">
+                                                <strong> 8</strong>
+                                            </span> - Episode
+                                            <span class="text-danger">
+                                                <strong>9</strong>
+                                            </span> - Still gotta mean something
+                                        </div>
+
+                                    </div>
+                                    <div class="overlay-item mb-5">
+                                        <h1>Jurasic World: Fallen Kingdom</h1>
+                                    </div>
+                                    <div class="overlay-item f-13 mb-5">
+                                        <p>
+                                            A Heaps prisoner makes a discovery; Carol searches for someone in the nearby forest;
+                                        </p>
+                                        <p>Rick and Morgan find themselves in the company of starngers.</p>
+                                    </div>
+                                    <div class="overlay-item">
+                                        <button class="btn-red btn-round btn-shadow mr-4">
+                                            <img src="images/play_icon_4.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                            <span>WATCH</span>
+                                        </button>
+                                        <button class="btn-black btn-round btn-shadow">
+                                            <img src="images/add_icon.png" alt="" style="width: 9px;display: inline-block;margin-right: 5px;margin-bottom: 2px;">
+                                            <span>ADD LIST</span>
+                                        </button>
+                                    </div>
+                                    <div class="more-list">
+                                        <ul>
+                                            <li class="more-li active">GENERAL INFORMATION</li>
+                                            <li class="more-li">WATCH TRAILER</li>
+                                            <li class="more-li">SIMILAR</li>
+                                            <li class="more-li">REVIEWS AND DETAILS</li>
+                                            <li class="more-li">
+                                                <img src="images/favorite_icon.png" alt="">
+                                            </li>
+                                            <li class="more-li">
+                                                <img src="images/watched_icon.png" alt="">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trending-items">
+                    <img src="images/rectangle_33.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Deadpool 2</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">8.1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_48.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Life Of The Party</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">5.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_47.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Mute</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">5.4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_34.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">The Meg</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_43.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Rascal Rebel Rabit</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">6.6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-items">
+                    <img src="images/rectangle_52.jpg" alt="" class="movie-img">
+                    <div class="card-label">
+                        <h6 class="text-white">Mission Impossible: Fallout</h6>
+                        <div class="card-inner-label">
+                            <span style="margin-right:40px;color: #444;">2018</span>
+                            <span>
+                                <img src="images/heart_2.png" alt="" class="card-ico" style="width:10px">
+                            </span>
+                            <span>
+                                <img src="images/eye_2.png" alt="" class="card-ico" style="width:13px">
+                            </span>
+                            <span class="text-warning last-span">
+                                <img src="images/icon_star.png" alt="" class="card-ico" style="width:11px">7.6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="add-more">
+            <button class="btn-add">
+                <img class="icon-14" src="images/add_icon.png" alt="">
+            </button>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.2/rangeslider.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
